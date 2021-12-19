@@ -1,0 +1,39 @@
+{
+  "name": "profile-experience-edit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://omegamputu: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@github.com/omegamputu/profile-experience-edit.git"
+  },
+  "author": "Omega Mputu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omegamputu/profile-experience-edit/issues"
+  },
+  "homepage": "https://github.com/omegamputu/profile-experience-edit#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.39",
+    "bootstrap": "^4.6.0",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "express": "^4.17.2",
+    "vue": "^2.6.14"
+  }
+}
