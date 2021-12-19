@@ -86,22 +86,22 @@ __webpack_require__.r(__webpack_exports__);
       experiences: [{
         title: 'Freelancer',
         company: 'Wydman Ltd',
-        start_date: 2021,
+        start_date: '15/07/2021',
         ends_date: '',
         ongoing: true,
         summary: 'Average rating 4.95 over 60+ projects with great feedback from clients; Generated sales over €12,000 within the first couple of months; Finished 2 prototypes'
       }, {
         title: 'Project Manager',
         company: 'Ledner Group',
-        start_date: 2019,
-        ends_date: 2020,
+        start_date: '06/12/2019',
+        ends_date: '01/08/2020',
         ongoing: false,
         summary: 'Completed multiple fixed and hourly projects with positive feedback and 5 star ratings; Worked on more than 100 projects from creating websites to graphic design'
       }, {
         title: 'Software Engineer',
         company: 'Gutmann',
-        start_date: 2017,
-        ends_date: 2019,
+        start_date: '26/01/2017',
+        ends_date: '05/06/2019',
         ongoing: false,
         summary: '10 successfully completed projects and evaluated with highest grade (5) by the clients'
       }],
@@ -36254,7 +36254,7 @@ var render = function () {
                             type: "date",
                             id: "endsDate",
                             name: "ends_date",
-                            disabled: _vm.disabled == 1,
+                            disabled: _vm.disabled == 0,
                             placeholder: "Ends Date",
                             required: "required",
                           },
@@ -36635,7 +36635,7 @@ var render = function () {
                         attrs: {
                           type: "date",
                           id: "updateEndsDate",
-                          disabled: _vm.disabled == 0,
+                          disabled: _vm.disabled == 1,
                           placeholder: "Ends Date",
                           required: "required",
                         },

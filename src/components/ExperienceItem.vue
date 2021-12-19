@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-auto my-1">
                         <div class="form-label-group">
-                            <input type="date" id="updateEndsDate" :disabled="disabled == 0" v-model="experience.ends_date" class="form-control" placeholder="Ends Date" required="required">
+                            <input type="date" id="updateEndsDate" :disabled="disabled == 1" v-model="experience.ends_date" class="form-control" placeholder="Ends Date" required="required">
                             <label for="updateEndsDate">Ends Date</label>
                         </div>
                     </div>
